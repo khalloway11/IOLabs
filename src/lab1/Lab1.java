@@ -68,7 +68,7 @@ public class Lab1 {
         out.print("\r");
         out.println("Santa Claus");
         out.println("1 Candy Cane Ln");
-        out.println("North Pole, 11111");
+        out.println("North Pole, The Arctic 11111");
         out.close();
         
         try {

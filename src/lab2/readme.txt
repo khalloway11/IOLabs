@@ -11,3 +11,20 @@ a record number that has no matching record. You should display something
 like "Sorry, there are only 3 records." 
 When you do find a record you should display that 
 record by itself at the console.
+
+records contained in 3 lines:
+name
+street address
+city, state, zip
+
+to get the desired record, the upper bound (city, state, zip line):
+(n * 3)
+and the lower bound:
+(n * 3) - 2
+where n is the number of the record being requested
+ex: for record 1, the upper bound is (1*3) = line 3
+the lower bound is (1*3) - 2 = line 1
+return lines 1, 2, 3
+for record 2, the upper bound is (2*3) = line 6
+the lower bound is (2*3) - 2 = line 4
+return lines 4, 5, 6
