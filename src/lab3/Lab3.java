@@ -4,7 +4,8 @@
  * and open the template in the editor.
  */
 
-package lab2;
+package lab3;
+
 import java.io.*;
 import java.util.*;
 
@@ -12,14 +13,13 @@ import java.util.*;
  *
  * @author khalloway
  */
-public class Lab2 {
+public class Lab3 {
     public static void main(String[] args) throws IOException {
         File data = new File("src" + File.separatorChar + "records.txt");
     
         BufferedReader in = null;
-        int record = 3;
-        int upper = (record * 3)-1;
-        int lower = upper - 2;
+        int record = 2;
+        int city = (record * 3)-1;
         //read a specific record and output to console
         try {
 	   in = new BufferedReader(new FileReader(data));
@@ -30,8 +30,8 @@ public class Lab2 {
 	   String line = in.readLine();
 	   while(line != null){
                line = in.readLine();  // strips out any carriage return chars
-               if((count >= lower) && (count <= upper)){
-		  System.out.println(line);	 
+               if(count == city){
+		  System.out.println(line);
                }
                count++;
 	   }

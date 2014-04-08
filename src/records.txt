@@ -10,4 +10,6 @@ Hollywood, CA 12345
 Santa Claus
 1 Candy Cane Ln
 North Pole, 11111
-Arctic
+ArcticSanta Claus
+1 Candy Cane Ln
+North Pole, The Arctic 11111
